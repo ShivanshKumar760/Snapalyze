@@ -65,7 +65,7 @@ function App() {
         body: JSON.stringify({ message: value, imageUrl: imageUrl }), // Send both message and image URL
         headers: { "Content-type": "application/json" }
       };
-      const response = await fetch("http://localhost:3000/openai", options);
+      const response = await fetch("https://snapalyze.onrender.com/openai", options);
       const answer = await response.text();
       setResponse(answer);
       setLoading(false);
@@ -95,7 +95,7 @@ function App() {
         body:formData
       }
 
-      const response=await fetch("http://localhost:3000/upload",options);
+      const response=await fetch("https://snapalyze.onrender.com/upload",options);
       const data=await response.json();
       console.log(data);
       //New Part added to get the image url from cloudinary
