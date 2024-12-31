@@ -26,7 +26,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/ShivanshKumar760/Snapalyze.git
 ## Installation
 
 ### Prerequisites:
@@ -58,9 +58,11 @@
    npm install or npm i or pnpm install
 3. Populate the .env file for mongodb connection:
    ```bash
-     MONGO_URI=<Your MongoDB URI>
-    JWT_SECRET=<Your JWT Secret Key>
-    PORT=8000
+      GPT_API=YPUR_API_KEY
+      PORT=3000
+      CLOUDINARY_CLOUD_NAME=YOUR_CLOUD_NAME
+      CLOUDINARY_API_KEY=YOUR_API_KEY
+      CLOUDINARY_API_SECRET=YOUR_API_SECRET
 4. Run the express server:
    ```bash
-   node index.js
+   node server.js
