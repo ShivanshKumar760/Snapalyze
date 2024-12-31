@@ -1,4 +1,4 @@
-![MatchX Logo](https://github.com/ShivanshKumar760/matchX/blob/master/client/src/images/app-readme.png)
+![Snapalyzer Logo](https://github.com/ShivanshKumar760/Snapalyze/blob/master/Snapalyzer.png)
 # Snapalyzer: Image-based Question Answering with GPT
 
 **Snapalyzer** is a web application that leverages the power of GPT models to answer questions about images. Upload an image, ask your questions, and receive insightful and informative answers.
