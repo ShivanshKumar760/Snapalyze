@@ -18,7 +18,6 @@
 
 * **Frontend:** React.js 
 * **Backend:** Node.js, Express.js
-* **Database:** (Optional, if needed) MongoDB, etc.
 * **Cloud Storage:** Cloudinary for secure and efficient image storage.
 * **GPT Integration:** Seamless integration with a chosen GPT model (e.g., OpenAI's GPT-3, Google's Bard).
 
