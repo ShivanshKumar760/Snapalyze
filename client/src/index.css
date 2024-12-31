@@ -39,7 +39,7 @@ html, body {
   padding: 20px;
   border-radius: 10px;
   background-color:inherit ; 
-  box-shadow: 7px 7px 15px 15px red; /* Subtle shadow for better visuals */
+  box-shadow: 4px 4px 7px 7px rgb(231, 211, 211); /* Subtle shadow for better visuals */
 }
 
 h1 {
@@ -81,7 +81,7 @@ button:focus-visible {
 .input__container {
   position: relative;
   background: rgba(255, 255, 255, 0.664);
-  padding: 10px 15px;
+  padding: 15px 15px;
   display: flex;
   justify-content: center;
   align-items: center;
